@@ -3,16 +3,7 @@ using System;
 
 namespace HomeWork7
 {
-    public static class class1{
-         public static string P(this string s){if(s=="")return "Please Enter Valid String!";else{
-            string result="";
-            for(int i=s.Length-1;i>=0;i--){
-                result+=s[i];
-            }
-            return result;}
-        }
 
-    }
     public class Program
     {
         public static string res="";
